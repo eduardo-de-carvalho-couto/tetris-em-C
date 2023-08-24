@@ -59,6 +59,7 @@ A pontuação do jogador aumenta ao eliminar linhas completas no campo de jogo. 
 
 ## Código
 
+```c++
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -587,4 +588,4 @@ void verificarVitoria(void) {
         vivo = false;
     }
 }
-
+```
